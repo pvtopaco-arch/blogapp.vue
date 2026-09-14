@@ -10,7 +10,8 @@ const app = express();
 app.use(cors({
   origin: [
     "http://localhost:5173",
-    "https://blogapp-vue.vercel.app"
+    "https://blogapp-vue.vercel.app",
+    "https://blogapp-vue-app.vercel.app"
   ],
   methods: ["GET", "POST", "PUT", "PATCH", "DELETE", "OPTIONS"],
   allowedHeaders: ["Content-Type", "Authorization"],
